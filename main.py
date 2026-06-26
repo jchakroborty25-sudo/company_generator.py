@@ -1,9 +1,16 @@
 from Generators.company_generator import generate_company
+from Generators.department_generator import generate_department
 
-print("="*50)
-print("AI FP&A COPILOT")
-print("="*50)
+def main():
 
-generate_company()
+    print("=" * 50)
+    print("NovaSphere Finance Analytics Platform")
+    print("=" * 50)
 
-print("Done.")
+    generate_company()
+    generate_department()
+
+    print("✅ Sprint 2 Complete")
+
+if __name__ == "__main__":
+    main()
